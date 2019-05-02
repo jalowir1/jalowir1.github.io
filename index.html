@@ -2,84 +2,139 @@
 <html>
 <head>
 <style>
-  body {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+body {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8e8e8e;
+}
 
-  .top {
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ff8800;
-    color: white;
-    float: right;
-    width: 265px;
-    height: 100%;
-    font-style: italic;
-    font-weight: bolder;
-    overflow: hidden;
-    position: fixed;
-  }
+.top {
+  font-size: 30px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ff8800;
+  color: white;
+  font-style: italic;
+  font-weight: bolder;
+}
 
-  .title {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    height: 25px;
-    margin-left: 60px;
-  }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ff8800;
-    top: 0;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff8800;
+  position: sticky;
+  top: 0;
+}
 
-  li {
-    float: center;
-  }
+li {
+  float: right;
+}
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
 
-  li a:hover {
-    background-color: #ffae00;
-  }
+li a:hover {
+  background-color: #ff5d00;
+}
 
-  .test {
-    height: 300px;
-    padding: 50%;
-  }
+.active {
+  background-color: #ffae00;
+}
+
+h3{
+  color: #ff8800;
+  text-align: center;
+}
+
+h4 {
+  color: #ff8800;
+}
+
+.next {
+  padding: 10px;
+}
 </style>
+ <script type="text/javascript" src="alert.js"></script>
 </head>
 <body>
+
 <div class="top">
-   <br> &nbsp Rebecca
-   <br> &nbsp Jalowicz
-  <div class = "title">
-     Front End Developer
-  </div>
-  <ul>
-    <li><a href="index.html"> About &nbsp</a></li>
-    <li><a href="resume.html"> Resume </a></li>
-    <li><a href="projects"> Projects </a></li>
-  </ul>
+  <h2> &nbsp Rebecca
+  <br>&nbsp Jalowicz</h2>
 </div>
 
-<div class = "test">
-  hek
+<ul>
+  <li><a class="active" href="index.html">About &nbsp</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  <li><a href="#contact">Projects</a></li>
+</ul>
+
+<div class = "next">
+<h3>Who is Rebecca Jalowicz?</h3>
+<p>
+  <div class = "next">
+  <img src="rprofpic.png"
+  width="270"
+  height="300"
+  align= "left"/>
 </div>
+Currently a Student at the College of New Jersey, majoring in
+Interactive Multimedia and planning on minoring in Computer Science.
+<br><br>
+Doesn't like talking about herself in the third person so she is going
+to stop that now.
+<br><br>
+If you are looking for my serious credentials, you are on the wrong page,
+click on "Resume" in the navigation bar. If you just want to know who I am,
+keep scrolling.
+<br><br>
+Hi! Hey! Hello! What's up? Why am I asking you these questions when you
+can't answer me? Oh wait, yes you can,
+
+<form action= "http://formspree.io/jalowir1@tcnj.edu" method="POST"> <input type="text" name="name">
+<input type="email" name="_replyto">
+<input type="submit" value="Send">
+
+<!--<input type="hidden" name="_next" value="http://www.tcnj.edu/~jalowir1/index/thanks.html" />-->
+
+<input type="hidden" name="_subject" value="New submission!" />
+
+<input type="text" name="_gotcha" style="display:none" />
+</form>
+say what you want in the first text box and add your email to the next, or not, up to you.
+<br><br>
+Now for some fun facts about me:
+<br><br>
+Favorite color: I can never pick just one color, I always say red is my favorite
+color as a go to but I also really like light blue and yellow, and more recently
+(as you can tell by this page) orange.
+<br>
+<h4>Favorite Book:</h4>
+A Monster Calls by Patrick Ness
+<br>
+<h4>Favorite Song:</h4>
+it always changes but currently its Violet by Bad Suns
+<br>
+<h4>Favorite Bands:</h4>
+COIN and Bad Suns
+<br>
+<h4>Favorite Candy:</h4>
+Reeses
+<br>
+<h4>Favorite Drink:</h4>
+Iced Coffee
+<br>
+<h4>Favorite Show:</h4>
+Game of Thrones
+<br><br>
+<h3>That's all for now! Either look around or head out but thanks for stopping by :)</h3>
 </body>
 </html>
