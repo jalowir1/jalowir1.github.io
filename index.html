@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 <style>
 body {
   font-size: 22px;
@@ -61,6 +63,39 @@ h4 {
 .next {
   padding: 10px;
 }
+
+.favorites {
+  width: 30%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid #8e8e8e;
+  border-radius: 15px;
+  box-shadow: 3px 3px;
+
+}
+
+@media only screen and (max-width: 885px) {
+  .favorites {
+    width: 95%;
+    height: 220px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 10px;
+    border: 2px solid #8e8e8e;
+    border-radius: 15px;
+    box-shadow: 3px 3px;
+  }
+
+footer{
+  width: 100%;
+  float: left;
+}
+
 </style>
  <script type="text/javascript" src="alert.js"></script>
 </head>
@@ -74,7 +109,7 @@ h4 {
 <ul>
   <li><a class="active" href="index.html">About &nbsp</a></li>
   <li><a href="resume.html">Resume</a></li>
-  <li><a href="#contact">Projects</a></li>
+  <li><a href="projects.html">Projects</a></li>
 </ul>
 
 <div class = "next">
@@ -86,7 +121,7 @@ h4 {
   height="300"
   align= "left"/>
 </div>
-Currently a Student at the College of New Jersey, majoring in
+Currently a Student at The College of New Jersey, majoring in
 Interactive Multimedia and planning on minoring in Computer Science.
 <br><br>
 Doesn't like talking about herself in the third person so she is going
@@ -99,42 +134,56 @@ keep scrolling.
 Hi! Hey! Hello! What's up? Why am I asking you these questions when you
 can't answer me? Oh wait, yes you can,
 
-<form action= "http://formspree.io/jalowir1@tcnj.edu" method="POST"> <input type="text" name="name">
-<input type="email" name="_replyto">
-<input type="submit" value="Send">
-
-<!--<input type="hidden" name="_next" value="http://www.tcnj.edu/~jalowir1/index/thanks.html" />-->
-
-<input type="hidden" name="_subject" value="New submission!" />
-
-<input type="text" name="_gotcha" style="display:none" />
+<form action="https://formspree.io/jalowir1@tcnj.edu" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="replyto">
+  <input type="submit" value="Send">
 </form>
+
 say what you want in the first text box and add your email to the next, or not, up to you.
 <br><br>
 Now for some fun facts about me:
 <br><br>
-Favorite color: I can never pick just one color, I always say red is my favorite
-color as a go to but I also really like light blue and yellow, and more recently
-(as you can tell by this page) orange.
-<br>
-<h4>Favorite Book:</h4>
-A Monster Calls by Patrick Ness
-<br>
-<h4>Favorite Song:</h4>
-it always changes but currently its Violet by Bad Suns
-<br>
-<h4>Favorite Bands:</h4>
-COIN and Bad Suns
-<br>
-<h4>Favorite Candy:</h4>
-Reeses
-<br>
-<h4>Favorite Drink:</h4>
-Iced Coffee
-<br>
-<h4>Favorite Show:</h4>
-Game of Thrones
-<br><br>
-<h3>That's all for now! Either look around or head out but thanks for stopping by :)</h3>
+  <div class = "favorites">
+  <h4>Favorite color:</h4>
+  I can never pick just one color, I always say red is my favorite
+  color as a go to but I also really like light blue and yellow, and more recently
+  (as you can tell by this page) orange.
+  </div>
+  <div class = "favorites">
+  <h4>Favorite Book:</h4>
+  A Monster Calls by Patrick Ness
+  </div>
+  <div class = "favorites">
+  <h4>Favorite Song:</h4>
+  it always changes but currently its Violet by Bad Suns
+  </div>
+  <div class = "favorites">
+  <h4>Favorite Bands:</h4>
+  COIN and Bad Suns
+  </div>
+  <div class = "favorites">
+  <h4>Favorite Candy:</h4>
+  Reeses
+  </div>
+  <div class = "favorites">
+  <h4>Favorite Drink:</h4>
+  Iced Coffee
+  </div>
+  <div class = "favorites">
+  <h4>Favorite Show:</h4>
+  Game of Thrones
+  </div>
+  <div class = "favorites">
+  <h4>Favorite Ice Cream Flavor:</h4>
+  Either Cookies and Cream or Coffee
+  </div>
+  <div class = "favorites">
+  <h4>Favorite Movie:</h4>
+  Good Will Hunting
+  </div>
+<footer>
+<h3> That's all for now! Either look around or head out, thanks for stopping by! :) </h3>
+</footer>
 </body>
 </html>
